@@ -1,1 +1,147 @@
-<div data-type="newStreamPlayer" data-publicToken="797c91fc-2b1c-4a31-a08d-07f2cce352eb" data-theme="light" data-color="e81e4d" data-channelId="" data-rendered="false" class="cstrEmbed"><a href="https://www.caster.fm">Shoutcast Hosting</a> <a href="https://www.caster.fm">Stream Hosting</a> <a href="https://www.caster.fm">Radio Server Hosting</a></div><script src="//cdn.cloud.caster.fm//widgets/embed.js"></script>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RADIO STAR G9C</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #090909, #25000d, #090909);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contenedor {
+            width: 95%;
+            max-width: 900px;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #e81e4d;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin: 10px 0;
+            letter-spacing: 4px;
+        }
+
+        .subtitulo {
+            font-size: 18px;
+            margin-bottom: 25px;
+            opacity: 0.8;
+        }
+
+        .envivo {
+            display: inline-block;
+            background: #e81e4d;
+            padding: 10px 25px;
+            border-radius: 30px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .reproductor {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+        }
+
+        .mensaje {
+            margin-top: 25px;
+            font-size: 16px;
+            opacity: 0.8;
+        }
+
+        footer {
+            margin-top: 35px;
+            font-size: 13px;
+            opacity: 0.6;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 30px;
+            }
+
+            .logo {
+                width: 120px;
+                height: 120px;
+            }
+
+            .reproductor {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <!-- TÍTULO -->
+        <h1>📻 RADIO STAR G9C</h1>
+
+        <div class="subtitulo">
+            Música, entretenimiento y mucho más
+        </div>
+
+        <div class="envivo">
+            🔴 EN VIVO
+        </div>
+
+        <!-- REPRODUCTOR CASTER.FM -->
+        <div class="reproductor">
+
+            <div
+                data-type="newStreamPlayer"
+                data-publicToken="797c91fc-2b1c-4a31-a08d-07f2cce352eb"
+                data-theme="light"
+                data-color="e81e4d"
+                data-channelId=""
+                data-rendered="false"
+                class="cstrEmbed">
+
+                <a href="https://www.caster.fm">Shoutcast Hosting</a>
+                <a href="https://www.caster.fm">Stream Hosting</a>
+                <a href="https://www.caster.fm">Radio Server Hosting</a>
+
+            </div>
+
+            <script src="//cdn.cloud.caster.fm//widgets/embed.js"></script>
+
+        </div>
+
+        <div class="mensaje">
+            🎶 Estás escuchando Radio Star G9C
+        </div>
+
+        <footer>
+            © 2026 RADIO STAR G9C
+        </footer>
+
+    </div>
+
+</body>
+</html>
